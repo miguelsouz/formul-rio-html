@@ -1,0 +1,50 @@
+button[type="submit"] {
+    background-color: #ffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color:black;
+    cursor: pointer;
+    box-shadow: 3px 4px 3px;
+    
+}
+
+button[type="submit"]:hover {
+    border-radius: 1px #0000;
+    background-color:  #008000;
+    color: #fff;
+    transition: 0.3s;
+    box-shadow: 3px 4px 3px #000;
+}
+
+button[type="submit"]:active {
+    box-shadow: none;
+    transform: translateY(13px);
+    box-shadow: 1px 1px 1px #000;
+}
+
+button[type="reset"] {
+    background-color: #ffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color:black;
+    cursor: pointer;
+    box-shadow: 3px 4px 3px;
+   
+}
+
+button[type="reset"]:hover {
+    background-color:  #FF0000;
+    transition: 0.3s;
+    color: #fff;
+    box-shadow: 3px 4px 3px #000; 
+}
+
+button[type="reset"]:active {
+    transform: translateY(13px);
+    box-shadow: 1px 1px 1px #000;
+}
+
+
+
