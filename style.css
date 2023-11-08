@@ -46,5 +46,14 @@ button[type="reset"]:active {
     box-shadow: 1px 1px 1px #000;
 }
 
+button[type="disable"] {
+    background-color: #ffff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color:black;
+    box-shadow: inset 2px 2px 12px;
+    
+}
 
 
