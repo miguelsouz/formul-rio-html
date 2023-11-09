@@ -1,3 +1,8 @@
+.controle-form{
+    margin-bottom: 20px;
+}
+
+
 button[type="submit"] {
     background-color: #ffff;
     border: none;
@@ -47,6 +52,7 @@ button[type="reset"]:active {
 }
 
 button[type="disable"] {
+    pointer-events: none;
     background-color: #ffff;
     border: none;
     border-radius: 8px;
